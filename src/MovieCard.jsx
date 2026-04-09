@@ -1,8 +1,8 @@
-export function MovieCard({image, rating}) {
-  return <div>
+export function MovieCard({ image, rating }) {
+  return (
     <div>
-      IMDb rating^ {rating}
+      <div>IMDb rating: {rating}</div>
+      <img src={image} alt="" width={200}/>
     </div>
-    <img src={image} alt="" />
-  </div>
+  );
 }

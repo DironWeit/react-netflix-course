@@ -1,11 +1,11 @@
-import { MovieCard } from './MovieCard'
+import { MovieCard } from "./MovieCard";
 
 function App() {
   return (
     <>
-     <MovieCard />
+      <MovieCard image="/1920x.webp" rating={8.8} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
