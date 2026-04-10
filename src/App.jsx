@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { MovieCard } from "./MovieCard";
 import { MOVIES } from "./movies.data";
 
